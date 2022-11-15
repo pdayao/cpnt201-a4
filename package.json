@@ -1,0 +1,23 @@
+{
+  "name": "cpnt201-a4",
+  "version": "1.0.0",
+  "description": "A simple practice space for using tailwind css",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdayao/cpnt201-a4.git"
+  },
+  "keywords": [
+    "tailwind",
+    "html"
+  ],
+  "author": "Patricia Dayao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pdayao/cpnt201-a4/issues"
+  },
+  "homepage": "https://github.com/pdayao/cpnt201-a4#readme"
+}

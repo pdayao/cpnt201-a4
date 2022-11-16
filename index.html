@@ -5,66 +5,85 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Assignment 4 - NPM Tailwind Assignment</title>
-  <link rel="stylesheet" href="./assets/css/main.css" />
+  <link rel="stylesheet" href="./assets/css/output.css" />
 </head>
-<body>
+<body class="bg-gradient-to-r from-blue-500 to-violet-500 text-white">
   <nav>
-    <ul>
-      <li>about</li>
-      <li>services</li>
-      <li>contact</li>
+    <ul class="mx-auto max-w-3xl flex gap-4 justify-around flex-wrap text-2xl py-6 md:py-2">
+      <li class="hover:text-orange-400 active:text-orange-900 ease-in-out duration-300 transition">about</li>
+      <li class="hover:text-orange-400 active:text-orange-900 ease-in-out duration-300 transition">services</li>
+      <li class="hover:text-orange-400 active:text-orange-900 ease-in-out duration-300 transition">contact</li>
     </ul>
   </nav>
-  <main>
-    <header>
-      <h1> Tailwind CSS</h1>
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit facilis debitis excepturi beatae sed soluta dicta cum illo mollitia quam atque nostrum iusto delectus autem iure quo, cupiditate consequuntur quae ut temporibus adipisci distinctio asperiores! Odio esse corporis, atque sapiente in vero? Veniam id ipsa dolor ab animi deserunt voluptate.
-      </p>
+  <main class="mx-auto">
+    <header class="py-4 container px-6 lg:px-0 mx-auto my-24 text-center">
+      <div class="container px-6 lg:px-0 lg:mx-auto">
+        <h1 class="font-bold text-sky-50 text-7xl xl:text-9xl mb-4"> Tailwind CSS</h1>
+        <p class="max-w-prose mx-auto py-4 xl:text-lg xl:max-w-lg">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit.  Veniam id ipsa dolor ab animi deserunt voluptate.
+        </p>
+        <a class="rounded px-6 py-2 font-semibold text-indigo-600 bg-yellow-200 hover:bg-orange-600 active:bg-red-900 active:text-green-200" href="#">Click Me!</a>
+      </div>
     </header>
-    <section>
-      <header>
-        <h2> Header 2</h2>
+    <section class="pb-8">
+      <header class="py-4 container px-6 lg:px-0 mx-auto text-center">
+        <h2 class="text-2xl xl:text-4xl font-semibold"> Header 2</h2>
       </header>
-      <div>
-        <p>
+      <div class="px-6 lg:px-0 mx-auto container">
+        <p class="max-w-prose mx-auto">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci maxime rerum molestias praesentium inventore nostrum sed animi? Aperiam culpa velit praesentium iure repellat consectetur, hic ipsum, consequatur nemo perspiciatis harum doloremque similique rerum distinctio id voluptate veritatis, delectus aut omnis voluptatem vitae! Recusandae eaque earum, aperiam accusamus facilis dolores doloremque.
         </p>
       </div>
     </section>
     <section>
-      <header>
-        <h3>Header 3</h3>
+      <header class="py-4 container px-6 lg:px-0 mx-auto text-center">
+        <h3 class="text-2xl xl:text-4xl font-semibold">Cards</h3>
       </header>
-      <div>
-        <article>
+      <div class="flex gap-4 flex-wrap justify-center">
+        <article class="container rounded w-48 py-4 px-2 bg-slate-900 drop-shadow-md">
           <h3>Thing 1</h3>
-          <p>Lorem ipsum dolor sit amet.</p>
+          <img
+            src="https://images.pexels.com/photos/1555900/pexels-photo-1555900.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt="purple lights"
+            class="w-48 lg:w-80 cover mx-auto my-4"
+          />
+          <p class="text-sm italic">Lorem ipsum dolor sit amet.</p>
         </article>
-        <article>
+        <article class="container rounded w-48 py-4 px-2 bg-slate-900 drop-shadow-md">
           <h3>Thing 2</h3>
-          <p>Lorem ipsum dolor sit amet.</p>
+          <img
+            src="https://images.pexels.com/photos/1555900/pexels-photo-1555900.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt="purple lights"
+            class="w-48 lg:w-80 cover mx-auto my-4"
+          />
+          <p class="text-sm italic">Lorem ipsum dolor sit amet.</p>
         </article>
-        <article>
+        <article class="container rounded w-48 py-4 px-2 bg-slate-900 drop-shadow-md">
           <h3>Thing 3</h3>
-          <p>Lorem ipsum dolor sit amet.</p>
+          <img
+            src="https://images.pexels.com/photos/1555900/pexels-photo-1555900.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt="purple lights"
+            class="w-48 lg:w-80 cover mx-auto my-4"
+          />
+          <p class="text-sm italic">Lorem ipsum dolor sit amet.</p>
         </article>
       </div>
     </section>
     <section>
-      <header>
-        <h2>An Image</h2>
-        <figure>
+      <header class="py-4 container px-6 lg:px-0 mx-auto my-10 text-center">
+        <h2 class="text-2xl xl:text-4xl font-semibold">An Image</h2>
+        <figure class="mx-auto">
           <img
-            src="./assets/images/hot-air-balloon.png"
-            alt="hot air balloon"
+            src="./assets/images/multicoloured-lights.jpeg"
+            alt="multicoloured lights"
+            class="w-48 lg:w-80 cover mx-auto my-4"
           />
-          <figcaption>hot air balloon</figcaption>
+          <figcaption class="my-2 text-gray-300">multicoloured lights</figcaption>
         </figure>
       </header>
     </section>
   </main>
-  <footer>
+  <footer class="py-8 text-center mx-auto text-white">
     <p>&copy; Patricia Dayao</p>
   </footer>
   

@@ -4,3 +4,6 @@ Assignment 4 - NPM Tailwind Assignment \
 Patricia Dayao \
 GH Page: \
 Attributions: \
+
+## Tailwind Notes
+- to run the tailwind compiler, run 'npm run build'
